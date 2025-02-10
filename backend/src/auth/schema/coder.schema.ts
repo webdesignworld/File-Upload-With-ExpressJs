@@ -26,6 +26,9 @@ export class Coder {
   @Prop({ type: String, required: false })
   avatar?: string;
 
+  @Prop({ type: String, required: false })
+  about?: string;
+  
   @Prop({
     type: String,
     enum: Object.values(CoderRole),
